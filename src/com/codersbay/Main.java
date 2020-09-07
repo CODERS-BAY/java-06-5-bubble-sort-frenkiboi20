@@ -1,7 +1,5 @@
 package com.codersbay;
 
-import java.util.ArrayList;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -24,8 +22,6 @@ public class Main {
         }
 
         System.out.println();
-
-        ArrayList<Integer> numbList = new ArrayList<>();
 
         for (int i = 0; i < unsorted.length; i++) {
             System.out.format("[%2d]   ", unsorted[i]);
